@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div class="left">
+        <h1>Drum Machine</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a href="#">Participer à la prochaine session</a>
+      </div>
+      <div class="right">
+        <div id="message"></div>
+        <div class="drumkit">
+          <img src="images/drumkit.svg" />
+          <a href="#" class="button button-crash" onclick="playSound(crash)"
+            >A</a
+          >
+          <a href="#" class="button button-racktom" onclick="playSound(racktom)"
+            >Z</a
+          >
+          <a href="#" class="button button-rimshot" onclick="playSound(rimshot)"
+            >U</a
+          >
+          <a
+            href="#"
+            class="button button-floortom"
+            onclick="playSound(floortom)"
+            >Q</a
+          >
+          <a href="#" class="button button-kick" onclick="playSound(kick)"
+            >Space</a
+          >
+          <a
+            href="#"
+            class="button button-stickshot"
+            onclick="playSound(stickshot)"
+            >Enter</a
+          >
+          <a href="#" class="button button-hihat" onclick="playSound(hihat)"
+            >P</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
